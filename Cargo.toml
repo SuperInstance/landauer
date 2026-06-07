@@ -1,0 +1,12 @@
+[package]
+name = "landauer"
+version = "0.1.0"
+edition = "2024"
+description = "Information thermodynamics: Landauer's principle and the physics of erasure"
+license = "MIT"
+repository = "https://github.com/SuperInstance/landauer"
+keywords = ["thermodynamics", "landauer", "information-theory", "physics", "entropy"]
+categories = ["science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
